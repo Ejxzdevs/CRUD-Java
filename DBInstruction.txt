@@ -1,0 +1,21 @@
+Create a database named 'StudentInformation', then after that, run SQL statements to create tables for 'account' and 'student'
+
+CREATE TABLE account (
+    username VARCHAR(50),
+    password VARCHAR(50)
+);
+
+INSERT INTO account (username, password) VALUES ('admin', 'admin');
+
+CREATE TABLE Students (
+    Student_ID INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+    First_Name VARCHAR(50),
+    Middle_Name VARCHAR(50),
+    Last_Name VARCHAR(50),
+    Age VARCHAR(50),
+    Gender VARCHAR(10),
+    Course VARCHAR(50),
+    Student_Year VARCHAR(50),
+    Section Varchar(50)
+);
+
