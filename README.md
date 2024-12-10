@@ -1,14 +1,34 @@
 # Student Information Management System
 
-## Overview
+## Overview 📌
 This Java project is a simple student information management system that allows users to manage student records stored in a database. The system includes functionalities to add, delete, display, and update student records, as well as user login and logout functionalities.
 
-## Project Structure
+## Login
+
+![LOGIN](home.png)
+
+## Add Students
+
+![add](Add.png)
+
+## Show List Students
+
+![show](show_after_add.png)
+
+## Update Student
+
+![update](update.png)
+
+## Delete Student
+
+![delete](delete.png)
+
+# Project Structure 📌
 ## Packages and Classes
 ### Declaration Package
 - Variables: Holds common variables for database connections and student information.
 
-### HttpMethod Package
+### HttpMethod Package 
 - Add: Handles adding a new student record to the database.
 - Delete: Handles deleting a student record from the database.
 - Display: Handles displaying all student records from the database.
@@ -21,11 +41,11 @@ This Java project is a simple student information management system that allows 
 ### informationsystem Package
 - InformationSystem: The main class that initiates the application by connecting to the database and prompting the user to log in.
 
-# Database Setup
+## Database Setup 📌
 
-## Create the database:
+### Create the database:
 - Create a database named StudentInformation.
-## Create required tables:
+### Create required tables:
 - Run the following SQL statements to create the account and students tables:
 
 CREATE TABLE account (
@@ -47,7 +67,7 @@ CREATE TABLE Students (
     Section VARCHAR(50)
 );
 
-# Usage
+# Usage 📌
 - Compile the project: Compile all Java files using your preferred IDE or command-line tools.
 - Run the application: Execute the InformationSystem class to start the application.
 - Login: Enter the username and password to log in.
