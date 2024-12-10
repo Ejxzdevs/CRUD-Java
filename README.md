@@ -23,6 +23,19 @@ This Java project is a simple student information management system that allows 
 
 ![delete](delete.png)
 
+## Features 📌
+- User authentication (Login/Logout)
+- Add new student records
+- Update existing student details
+- Display a list of all students
+- Delete student records
+    
+## Tech Stack 📌
+- **Programming Language:** Java
+- **Database:** Apache Derby
+- **Interface:** Console-based application
+
+
 # Project Structure 📌
 ## Packages and Classes
 ### Declaration Package
@@ -41,13 +54,14 @@ This Java project is a simple student information management system that allows 
 ### informationsystem Package
 - InformationSystem: The main class that initiates the application by connecting to the database and prompting the user to log in.
 
-## Database Setup 📌
+# Database Setup 📌
 
 ### Create the database:
 - Create a database named StudentInformation.
 ### Create required tables:
 - Run the following SQL statements to create the account and students tables:
 
+``` bash
 CREATE TABLE account (
     username VARCHAR(50),
     password VARCHAR(50)
@@ -66,6 +80,8 @@ CREATE TABLE Students (
     Student_Year VARCHAR(50),
     Section VARCHAR(50)
 );
+```
+
 
 # Usage 📌
 - Compile the project: Compile all Java files using your preferred IDE or command-line tools.
